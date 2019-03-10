@@ -3,16 +3,16 @@ def add(a: int, b: int) -> int:
     return a + b
 
 
-y = add(a=3, b=4)
-
-print(y)
-
-
 # 2つの整数の差を返す関数
 def sub(a: int, b: int) -> int:
     return a - b
 
 
-z = sub(a=3, b=4)
+if __name__ == '__main__':
+    y = add(a=3, b=4)
 
-print(z)
+    print(y)
+
+    y2 = sub(a=4, b=3)
+
+    print(y2)
