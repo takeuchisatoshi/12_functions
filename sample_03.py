@@ -17,3 +17,12 @@ print(y2)
 
 y3 = fizz_buzz_convert(x=15)
 print(y3)
+
+"""
+文字列をリストにする
+
+x = "Bob,Tom,Ken"
+y = x.split(",")
+
+y = ['Bob', 'Tom', 'Ken']
+"""
