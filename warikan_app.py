@@ -1,5 +1,3 @@
-
-
 amount = int(input("合計金額を入力してね > "))
 number_of_people = int(input("人数を入力してね > "))
 
