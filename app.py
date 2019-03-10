@@ -1,2 +1,7 @@
+import calculation
+
 if __name__ == '__main__':
-    print(hello)
+    nums = [1, 2, 3]
+    total = calculation.calculation_sum(nums)
+
+    print(total)
